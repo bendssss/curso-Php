@@ -39,11 +39,50 @@ echo $aluno['numero_calcado'];
 echo '<br>';
 echo $aluno['uf'];
 echo '<br>';
+echo '<hr>';
 
 
+$Carro_dois = [
+    'modelo' => 'Fusion',
+    'marca' => 'Ford',
+    'cor' => 'Preto',
+];
+
+echo $Carro_dois['modelo'];
+echo '<br>';
+echo $Carro_dois['marca'];
+echo '<br>';
+echo $Carro_dois['cor'];
+echo '<br>';
+echo '<hr>';
 
 
+$carro_tres = [
+    'modelo' => 'Civic',
+    'marca' => 'Honda',
+    'cor' => 'Branco',
+];
 
+echo $carro_tres['modelo'];
+echo '<br>';
+echo $carro_tres['marca'];
+echo '<br>';
+echo $carro_tres['cor'];
+echo '<br>';
+echo '<hr>';
+
+$carro_quatro = [
+    'modelo' => 'Modelo: Gol',
+    'marca' => 'Marca: Volkswagen',
+    'cor' => 'Cor: Cinza',
+];
+
+echo $carro_quatro['modelo'];
+echo '<br>';
+echo $carro_quatro['marca'];
+echo '<br>';
+echo $carro_quatro['cor'];
+echo '<br>';
+echo '<hr>';
 
 ?>
-
