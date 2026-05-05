@@ -12,3 +12,26 @@ $empresa = 'Senac Americana';
 
 //echo'O '.$nome.' é fundador da empresa : '.$empresa.'.'; 
 echo "O {$nome} é fundador da empresa: {$empresa}."; // Usando aspas duplas para interpolação de variáveis
+
+?>
+
+
+Operadores Aritméticos
++ soma
+- subtrai
+/ divide
+* multiplica
+% resto
+
+Operadores Relacionais
+> maior
+< menor
+>= maior igual
+<= menor igual
+== igual
+!= diferente
+
+Operadores lógicos
+&& e
+|| ou
+!  não//
