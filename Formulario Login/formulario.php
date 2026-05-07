@@ -7,11 +7,13 @@
 </head>
 <body>
 <h1>Login</h1>    
-<form action="..." method = "...">
+<form action="validar_login.php" method = "post">
     <input type="email" name="email_usuario">
     <label>Senha</label>
     <input type="passowrd" name="senha_usuario"><br>
-    <button type="submit>Acessar</button>
+    <button type="submit">Acessar</button>
+    <button type="reset">Limpar</button>
+
 </form>
 </body>
 </html>
